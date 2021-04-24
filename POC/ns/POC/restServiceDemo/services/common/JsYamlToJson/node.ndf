@@ -26,7 +26,7 @@
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">key</value>
+          <value name="field_name">configPath</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <array name="field_options" type="value" depth="1">
@@ -54,13 +54,16 @@
           <value name="node_subtype">unknown</value>
           <value name="node_comment"></value>
           <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">output</value>
-          <value name="field_type">object</value>
+          <value name="field_name">convertedJson</value>
+          <value name="field_type">string</value>
           <value name="field_dim">0</value>
+          <array name="field_options" type="value" depth="1">
+          </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -69,7 +72,15 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">its better to use yaml for maintaining your configurations instead of json or properties file. Yaml can be used to define the complex hierarchies which we might
+be able to define upto an extent in json or properties file configuration. Hence we are using yaml here for maintaining our configuration.
+
+We are maintaining the configuration of an API called openWeatherMap.
+
+in this java service, we are getting the path of the configuration file which is in YAML. 
+we are converting that YAML file into json string. so in whichever flow service we are going to use this JsYamlToJson, we need to convert that jsonString to
+document type using pub.json:jsonStringToDocument built in service.
+</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>

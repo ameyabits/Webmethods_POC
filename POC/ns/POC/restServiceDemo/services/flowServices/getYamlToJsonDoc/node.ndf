@@ -173,7 +173,9 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">In this service we are calling our common service which we use to convert the yaml file to json.
+
+we are using that java service JsYamlToJson and then converting the output json string into a document.</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
