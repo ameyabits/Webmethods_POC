@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">JsYamlToJson</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">U3RyaW5nIGNvbmZpZ1BhdGg7CgpJRGF0YUN1cnNvciBjdXJzb3IxPSBwaXBlbGluZS5nZXRDdXJz
+b3IoKTsKY29uZmlnUGF0aD1JRGF0YVV0aWwuZ2V0U3RyaW5nKGN1cnNvcjEsImNvbmZpZ1BhdGgi
+KTsKT2JqZWN0TWFwcGVyIHlhbWxSZWFkZXIgPSBuZXcgT2JqZWN0TWFwcGVyKG5ldyBZQU1MRmFj
+dG9yeSgpKTsKT2JqZWN0IG9iajsgCnRyeSB7CglvYmogPSB5YW1sUmVhZGVyLnJlYWRWYWx1ZShu
+ZXcgRmlsZShjb25maWdQYXRoKSwgT2JqZWN0LmNsYXNzKTsKCU9iamVjdE1hcHBlciBqc29uV3Jp
+dGVyID0gbmV3IE9iamVjdE1hcHBlcigpOyAKCVN0cmluZyBqc29uU3RyaW5nOwoJanNvblN0cmlu
+ZyA9IGpzb25Xcml0ZXIud3JpdGVWYWx1ZUFzU3RyaW5nKG9iaik7CglJRGF0YVV0aWwucHV0KGN1
+cnNvcjEsICJjb252ZXJ0ZWRKc29uIiwganNvblN0cmluZyk7CgljdXJzb3IxLmRlc3Ryb3koKTsg
+ICAgCgl9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CgkvLyBUT0RPIEF1dG8tZ2VuZXJhdGVkIGNh
+dGNoIGJsb2NrCgllLnByaW50U3RhY2tUcmFjZSgpOwp9Cgk=</value>
+</Values>
